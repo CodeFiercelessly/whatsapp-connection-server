@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+
+# Environment varibales
+.env*
+!.env*.example
+
+# VS Code Settings
+.vscode
+.idea
+
+*.DS_Store
+
+# local uploads
+uploads
+
+# Logs
+logs/*
+
+server.test.js
+server.dev.js
+
+src/tv.js
+
+tests
+
+test.js
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.DS_Store
